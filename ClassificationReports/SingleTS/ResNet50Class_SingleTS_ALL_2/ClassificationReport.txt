@@ -1,0 +1,5 @@
+Classification Resnet-50 Report
+
+ Metrics   |   Training |   Validation |   Testing
+-----------+------------+--------------+-----------
+ Accuracy  |   0.979582 |     0.977208 |  0.964387
