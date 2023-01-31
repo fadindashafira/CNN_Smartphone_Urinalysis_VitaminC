@@ -1,0 +1,6 @@
+Validation Regression Report
+
+ Metrics                      |   Validation
+------------------------------+--------------
+ Root Mean Squared Error      |     0.491576
+ Coefficient of Determination |     0.919835

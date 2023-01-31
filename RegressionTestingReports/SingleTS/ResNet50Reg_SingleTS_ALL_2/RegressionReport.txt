@@ -1,0 +1,6 @@
+ResNet50 Validation Regression Report
+
+ Metrics                      |   Validation
+------------------------------+--------------
+ Root Mean Squared Error      |     0.363293
+ Coefficient of Determination |     0.95637
