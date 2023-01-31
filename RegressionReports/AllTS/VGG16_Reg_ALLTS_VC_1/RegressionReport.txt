@@ -1,0 +1,9 @@
+VGG16 Regression Report
+
+ Metrics                        |    Training |   Validation |     Testing
+--------------------------------+-------------+--------------+-------------
+ Root Mean Squared Error        | 0.110822    |  0.12569     | 0.131892
+ Cosine Similarity              | 0.999391    |  0.999048    | 0.99902
+ Mean Squared Error             | 0.0122816   |  0.015798    | 0.0173955
+ Mean Absolute Percentage Error | 1.85268e+12 |  1.61769e+12 | 1.54807e+12
+ Coefficient of Determination   | 0.995549    |  0.993533    | 0.99354
