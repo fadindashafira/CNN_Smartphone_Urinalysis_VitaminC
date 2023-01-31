@@ -1,0 +1,9 @@
+ResNet50 Regression Report
+
+ Metrics                        |    Training |   Validation |     Testing
+--------------------------------+-------------+--------------+-------------
+ Root Mean Squared Error        | 0.0290271   |  0.0792551   | 0.0849229
+ Cosine Similarity              | 0.999955    |  0.999589    | 0.999559
+ Mean Squared Error             | 0.000842572 |  0.00628137  | 0.0072119
+ Mean Absolute Percentage Error | 4.50536e+12 |  7.24709e+12 | 4.53572e+12
+ Coefficient of Determination   | 0.999695    |  0.997429    | 0.997322
