@@ -1,0 +1,5 @@
+Validation Classification Report
+
+ Metrics   |   Validation
+-----------+--------------
+ Accuracy  |         0.85
