@@ -29,11 +29,20 @@ The best classification model performance was obtained using CNN-ResNet50. Accur
 
 The best regression model performance was obtained using CNN-ResNet50. Coefficient of Determination on single test strip was 0.991, multiple test strip was 0.997, and all test strip was 0.999 on testing dataset. 
 
-![alt text]https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/ResNetConfMatrix.png?raw=true)
+![alt text](https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/ResNetConfMatrix.png?raw=true)
 
 ## Testing Results with Real Urine
+After building and training the optimum CNN models, the models then testing into new dataset consists of urine test strip image that had been dipped into real urine sample. ResNet50 successfully achieve the optimum performance.
 
 ![alt text](https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/TestingModelVGG16Class.png?raw=true)
+
+In classification models, ResNet50 achieved an Accuracy score of 91.3% on single test strip images, 87.8% on multiple test strip images, and 93.5% on all test strip images. 
+
 ![alt text](https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/TestingModelResNet50Reg.png?raw=true)
 
-These results indicate that the urinalysis colorimetry system based on smartphone cameras and VGG16 can be used to measure urine Vitamin C with urinalysis barcode images.
+In regression models, ResNet50 achieved a Coefficient of Determination score of 0.956 on single test strip images, 0.919 on multiple test strip images, and 0.803 on all test strip images. 
+
+## Conclusion
+After building and testing the optimum CNN ResNet50 and VGG16 models, the results show that ResNet50 have a better architecture and deeper layer, therefore the models can learn feature much more than VGG16 models. 
+
+These results indicate that the urinalysis colorimetry system based on smartphone cameras with ResNet50 is the optimum CNN model and can be used to measure urine Vitamin C with urine strip test images.
