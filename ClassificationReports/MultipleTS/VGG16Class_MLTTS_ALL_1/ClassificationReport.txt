@@ -1,0 +1,5 @@
+Classification VGG16 Report
+
+ Metrics   |   Training |   Validation |   Testing
+-----------+------------+--------------+-----------
+ Accuracy  |   0.990714 |     0.979048 |  0.975238
