@@ -1,0 +1,5 @@
+Classification Regression Report
+
+ Metrics   |   Training |   Validation |   Testing
+-----------+------------+--------------+-----------
+ Accuracy  |   0.998571 |      0.99619 |  0.994286
