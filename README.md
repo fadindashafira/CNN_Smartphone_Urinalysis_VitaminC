@@ -46,3 +46,14 @@ In regression models, ResNet50 achieved a Coefficient of Determination score of 
 After building and testing the optimum CNN ResNet50 and VGG16 models, the results show that ResNet50 have a better architecture and deeper layer, therefore the models can learn feature much more than VGG16 models. 
 
 These results indicate that the urinalysis colorimetry system based on smartphone cameras with ResNet50 is the optimum CNN model and can be used to measure urine Vitamin C with urine strip test images.
+
+## Notes
+Folders:
+Classification Models: Python code
+ClassificationReports: Report after train and build classification model
+ClassificationTestingReports: Report of Testing on the best model
+Datasets: images dataset in .hdf5 file
+Images: images used in README.md file
+Regression Models: Python code
+RegressionReports: Report after train and build regression model
+RegressionTestingReports: Report of Testing on the best model
