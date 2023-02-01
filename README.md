@@ -22,14 +22,14 @@ The system output is 5 classes and urine Vitamin C contents (0-5.6 mmol/L). The 
 
 The best classification model performance was obtained using CNN-ResNet50. Accuracy of single test strip was 97.7%, multiple test strip was 99.5%, and all test strip was 99.9% on testing dataset. 
 
-![alt text](https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/ResNetRegCurve.png?raw=true)
+![alt text](https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/ResNetConfMatrix.png?raw=true)
 
 ## Regression Models Training Results with Artificial Urine
 ![alt text](https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/CNNRegTrainModCompare.png?raw=true)
 
 The best regression model performance was obtained using CNN-ResNet50. Coefficient of Determination on single test strip was 0.991, multiple test strip was 0.997, and all test strip was 0.999 on testing dataset. 
 
-![alt text](https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/ResNetConfMatrix.png?raw=true)
+![alt text](https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/ResNetRegCurve.png?raw=true)
 
 ## Testing Results with Real Urine
 After building and training the optimum CNN models, the models then testing into new dataset consists of urine test strip image that had been dipped into real urine sample. ResNet50 successfully achieve the optimum performance.
