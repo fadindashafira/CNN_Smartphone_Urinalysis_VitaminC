@@ -48,12 +48,21 @@ After building and testing the optimum CNN ResNet50 and VGG16 models, the result
 These results indicate that the urinalysis colorimetry system based on smartphone cameras with ResNet50 is the optimum CNN model and can be used to measure urine Vitamin C with urine strip test images.
 
 ## Notes
+
 Folders:
+
 Classification Models: Python code
+
 ClassificationReports: Report after train and build classification model
+
 ClassificationTestingReports: Report of Testing on the best model
+
 Datasets: images dataset in .hdf5 file
+
 Images: images used in README.md file
+
 Regression Models: Python code
+
 RegressionReports: Report after train and build regression model
+
 RegressionTestingReports: Report of Testing on the best model
