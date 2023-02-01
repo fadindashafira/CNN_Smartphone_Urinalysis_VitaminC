@@ -22,18 +22,18 @@ The system output is 5 classes and urine Vitamin C contents (0-5.6 mmol/L). The 
 
 The best classification model performance was obtained using CNN-ResNet50. Accuracy of single test strip was 97.7%, multiple test strip was 99.5%, and all test strip was 99.9% on testing dataset. 
 
-(https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/ResNetRegCurve.png?raw=true)
+![alt text](https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/ResNetRegCurve.png?raw=true)
 
 ## Regression Models Training Results with Artificial Urine
 ![alt text](https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/CNNRegTrainModCompare.png?raw=true)
 
 The best regression model performance was obtained using CNN-ResNet50. Coefficient of Determination on single test strip was 0.991, multiple test strip was 0.997, and all test strip was 0.999 on testing dataset. 
 
-(https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/ResNetConfMatrix.png?raw=true)
+![alt text]https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/ResNetConfMatrix.png?raw=true)
 
 ## Testing Results with Real Urine
 
-(https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/TestingModelVGG16Class.png?raw=true)
-(https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/TestingModelResNet50Reg.png?raw=true)
+![alt text](https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/TestingModelVGG16Class.png?raw=true)
+![alt text](https://github.com/fadindashafira/CNN_Smartphone_Urinalysis_VitaminC/blob/master/Images/TestingModelResNet50Reg.png?raw=true)
 
 These results indicate that the urinalysis colorimetry system based on smartphone cameras and VGG16 can be used to measure urine Vitamin C with urinalysis barcode images.
